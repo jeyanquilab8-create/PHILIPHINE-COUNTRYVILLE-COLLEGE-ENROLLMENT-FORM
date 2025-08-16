@@ -1,0 +1,100 @@
+index.html
+about.html
+contact.html
+style.css
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My HTML Website 🚀</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Welcome to My Website 🎉</h2>
+    <p>This is the homepage of my simple HTML website.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 My Website | All rights reserved</p>
+  </footer>
+</body>
+</html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  background: #222;
+  color: #bbb;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 0 5px gray;
+}
+
+input, textarea {
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #45a049;
+}
